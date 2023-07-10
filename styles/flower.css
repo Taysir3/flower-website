@@ -19,6 +19,7 @@ header{
 
 .header-text>p {
     color: rgba(39, 39, 39, 0.60);
+    padding-bottom: 32px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
