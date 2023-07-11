@@ -162,13 +162,38 @@ header {
     padding-left: 230px;
 }
 
-.instagram > p {
+.instagram>p {
     padding: 0px 650px;
     padding-bottom: 48px;
 }
-.insta-images{
+
+.insta-images {
     display: flex;
     padding: 0px 240px;
     padding-bottom: 130px;
     gap: 24px;
+}
+.latest-deal{
+    margin: 128px 240px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+}
+.input-ld>input {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px;
+    padding-right: 510px;
+    border: 0px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.ld-text > p {
+    padding: 0px 635px;
+    padding-bottom: 40px;
+}
+.latest-deal > .input-ld {
+    padding: 0px 500px;
+    display: flex;
+    gap: 15px;
 }
