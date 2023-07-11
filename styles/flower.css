@@ -1,3 +1,6 @@
+* {
+    font-family: Lato;
+}
 header {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -113,8 +116,8 @@ header {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
-    padding-left: 320px;
-    padding-right: 320px;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-top: 32px;
     padding-bottom: 130px;
 }
@@ -127,7 +130,7 @@ header {
 .banner {
     display: flex;
     margin: 120px 240px;
-    padding: 86px 80px;
+    padding: 86px 70px;
     gap: 100px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -159,7 +162,7 @@ header {
 }
 
 .button-hd {
-    padding-left: 230px;
+    padding-left: 215px;
 }
 
 .instagram>p {
@@ -173,10 +176,24 @@ header {
     padding-bottom: 130px;
     gap: 24px;
 }
-.latest-deal{
-    margin: 128px 240px;
-    background-image: url("../Flower Asset/Rectangle 9.png");
+
+.latest-deal-full {
+    background-image: url("../images/Rectangle-9.png");
+    margin: 120px 240px;
+    border-radius: 8px;
+    padding: 80px 280px;
 }
+
+.input-ld{
+    display: flex;
+    gap: 15px;
+}
+
+.ld-text > p{
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+
 .input-ld>input {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -188,12 +205,33 @@ header {
     border-radius: 8px;
     background: #FFF;
 }
-.ld-text > p {
-    padding: 0px 635px;
-    padding-bottom: 40px;
+
+.flower {
+    color: #E55473;
 }
-.latest-deal > .input-ld {
-    padding: 0px 500px;
-    display: flex;
-    gap: 15px;
+
+footer {
+    background-color: #111010;
+    padding: 128px 650px;
+    font-family: Lato;
+}
+
+.shop {
+    color: #FFF;
+}
+
+.footeronedes {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 625px;
+}
+
+.footer-section-description {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
