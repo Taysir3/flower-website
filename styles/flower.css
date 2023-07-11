@@ -28,7 +28,7 @@ header {
     width: 634px
 }
 
-.header-text>button {
+.button-pink {
     border-radius: 8px;
     background: #E55473;
     border: 0px;
@@ -36,6 +36,7 @@ header {
     color: white;
     font-size: 20px;
     font-weight: 700;
+    text-align: center;
 }
 
 .header-image {
@@ -117,7 +118,46 @@ header {
     padding-top: 32px;
     padding-bottom: 130px;
 }
-.under-image-text-2{
+
+.under-image-text-2 {
     padding-right: 310px;
     padding-left: 310px;
+}
+
+.banner {
+    display: flex;
+    margin: 120px 240px;
+    padding: 86px 80px;
+    gap: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.banner-items {
+    text-align: center;
+    width: 100%;
+}
+
+.banner-items>h2 {
+    width: 372px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.hot-deal {
+    display: flex;
+    gap: 180px;
+    padding: 100px 350px;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 120px;
+}
+
+.button-hd {
+    padding-left: 230px;
 }
