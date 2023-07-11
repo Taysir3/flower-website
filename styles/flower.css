@@ -161,3 +161,14 @@ header {
 .button-hd {
     padding-left: 230px;
 }
+
+.instagram > p {
+    padding: 0px 650px;
+    padding-bottom: 48px;
+}
+.insta-images{
+    display: flex;
+    padding: 0px 240px;
+    padding-bottom: 130px;
+    gap: 24px;
+}
