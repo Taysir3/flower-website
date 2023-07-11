@@ -235,3 +235,15 @@ footer {
     font-size: 16px;
     font-weight: 400;
 }
+
+.profile {
+    width: 300px;
+    display: flex;
+}
+
+.review-section {
+    display: flex;
+    gap: 100px;
+    padding: 20px 390px;
+    background-color: #FFF;
+}
